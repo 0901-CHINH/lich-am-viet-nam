@@ -1,0 +1,18 @@
+LỊCH ÂM VIỆT NAM – GÓI CÀI ĐẶT PWA CHO ANDROID / XIAOMI HYPEROS
+
+Tính năng:
+- Hôm nay: ngày âm, ngày dương, thứ, năm âm, Can Chi và đồng hồ UTC+7.
+- Theo tháng: lưới ngày dương; số nhỏ bên dưới là ngày âm. Chạm ngày để xem chi tiết.
+- Theo năm: xem 12 tháng; ngày mùng 1 âm lịch được đánh dấu màu vàng. Chạm tháng để mở lịch tháng.
+- Tự đổi ngày lúc qua nửa đêm; cache để dùng ngoại tuyến sau khi cài/tải lần đầu.
+
+CÀI TRÊN ĐIỆN THOẠI HYPEROS:
+1. Đưa toàn bộ nội dung thư mục này lên một máy chủ HTTPS (ví dụ GitHub Pages hoặc hosting có SSL). PWA cần HTTPS để cài đặt và dùng service worker; không mở index.html trực tiếp từ file ZIP.
+2. Mở đường dẫn HTTPS bằng Chrome trên điện thoại Xiaomi/HyperOS.
+3. Chọn menu ⋮ > Install app (Cài đặt ứng dụng) hoặc Add to Home screen (Thêm vào màn hình chính).
+4. Xác nhận cài đặt. Biểu tượng “Lịch Âm” sẽ xuất hiện trên màn hình chính và mở như ứng dụng độc lập.
+
+LƯU Ý:
+- Đây là ứng dụng web cài đặt được (PWA), không phải APK native. PWA chạy trên HyperOS thông qua Chrome/WebView hiện đại và không cần quyền đặc biệt.
+- Gói này không chứa file APK đã biên dịch. Muốn phát hành APK độc lập cần đóng gói thêm bằng Android Studio/Capacitor và ký ứng dụng.
+- Thuật toán âm lịch thiên văn được tính cho múi giờ Việt Nam UTC+7.

@@ -1,0 +1,27 @@
+{
+  "id": "./",
+  "name": "Lịch Âm Việt Nam",
+  "short_name": "Lịch Âm",
+  "description": "Xem lịch âm dương Việt Nam theo ngày, tháng và năm.",
+  "lang": "vi",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#10271e",
+  "theme_color": "#17382b",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
